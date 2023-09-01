@@ -1,3 +1,4 @@
+import os
 import psycopg2
 
 # Skopiraj datoteko v auth.py in vnesi podatke za priklop na bazo
