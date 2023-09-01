@@ -6,7 +6,7 @@ host = "baza.fmf.uni-lj.si"
 user = "valg"
 password = "mcw4mi0q"
 
-connection_port = "5432"
+connection_port = os.environ.get('POSTGRES_PORT', 5432)
 
 
 def connect():
